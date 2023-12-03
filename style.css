@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 80vh;
+    background-color: blueviolet;
+}
+.container{
+    width: 35%;
+    max-height: 450px;
+    background-color: white;
+    margin: 5rem auto;
+    border-radius: 3px;
+    overflow-y: hidden;
+    box-shadow: 0px 0px 20px rgba(20, 18, 18, 0.69);
+    padding: 1.5rem 2rem 2rem 2rem;
+}
+.container h1{
+    padding-bottom: 1rem;
+    color: rgb(132, 7, 250);
+}
+.container .box{
+    width: 100%;
+    height: 2.8rem;
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 10px rgba(112, 4, 112, 0.478);
+    /* padding: .3rem; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.box .logo{
+    width: 10%;
+    font-size: 25px;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    color: blueviolet;
+    align-items: center;
+    justify-content: center;
+}
+.box input{
+    width: 75%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: .5rem;
+    text-transform: capitalize;
+}
+.box button{
+    border: none;
+    outline: none;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;   
+    cursor: pointer;
+}
+.box button i{
+    font-size: 22px;
+    color: white;
+}
+
+.container .list-task{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+.list-task ul{
+    width: 100%;
+    list-style: none;
+}
+.list-task ul li{
+    position: relative;
+    width: 100%;
+    /* padding: .3rem; */
+    /* background-color: blueviolet; */
+    /* color: white; */
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+ .list-task ul  li .first{
+    width: 5%;
+    padding: .5rem 0;
+    text-align: center;
+    /* background-color: aqua;  */
+    color: blueviolet;
+} 
+
+.list-task ul li .task{
+    width: 90%;
+    padding: 0 .3rem;
+    text-transform: capitalize;
+}
+.list-task ul  li .last{
+    position: absolute;
+    right: 1%;
+    width: 5%;
+    padding: .5rem;
+    text-align: center;
+    color: blueviolet;
+    /* background-color: aqua; */
+}
+ul li:nth-child(odd) {
+    /* margin-bottom: .3rem; */
+    background: rgba(159, 89, 224, 0.425);
+  }
+  ul li:nth-child(even) {
+    /* margin-bottom: .3rem; */
+    background: rgba(144, 58, 225, 0.166);
+  }
